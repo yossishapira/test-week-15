@@ -52,10 +52,17 @@ rolling.addEventListener('click', (event) => {
         dice_2.textContent = "dice 2: " + dice2;
 
         if (dice1 === dice2) {
-            score = 0;
-            currentPlayer = currentPlayer === 1 ? 2 : 1;
-            return;
-        }
+        score = 0;
+
+        if (currentPlayer === 1) {
+        currentPlayer = 2;
+    } else {
+        currentPlayer = 1;
+    }
+
+    return;
+}
+
 
         let sumDice = dice1 + dice2;
         score += sumDice;
