@@ -1,0 +1,46 @@
+header {
+    background-color: rgb(153, 143, 143);
+    color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game {
+  background-color: rgb(142, 145, 144);
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.player-1{
+    background-color: rgb(179, 157, 238);
+    width: 300px;
+    height: 500;
+    padding: 20px;
+    border-radius: 10px;
+}
+.play{
+    background-color: rgb(163, 221, 163);
+    width: 300px;
+    height: 500;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.player-2{
+ background-color: rgb(100, 50, 236);
+    width: 300px;
+    height: 500;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Current-Score{
+    background-color: antiquewhite;
+}

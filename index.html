@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Two-Player Dice Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>The max score is:100</h1>
+    </header>
+    <main>
+        <div class="game">
+
+            <div class="player-1">
+                <h1>Player 1</h1>
+                <p id="message"></p>
+                <p><span id="score">0</span></p>
+                <p id="Current-Score"></p>
+                <p>Current Score: <span id="score">0</span></p>
+
+            </div>
+            <div class="play">
+                <P class="dice-1">dice 1: </P>
+                <P class="dice-2">dice 2: </P>
+                <button  id="rollDice" onclick="checkGuess()">ROLL DICE</button>
+                <button  id="hold" onclick="checkGuess()">HOLD</button>
+                <button  id="newGame" onclick="checkGuess()">NEW GAME</button>
+            </div>
+            <div class="player-2">
+                <h1>Player 2</h1>
+                <p id="message"></p>
+                <p><span id="score">0</span></p>
+                <p id="Current-Score"></p>
+                <p>Current Score: <span id="score">0</span></p>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
